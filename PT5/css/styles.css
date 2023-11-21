@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  margin: 0;
+  background-color: #fff9ef;
+  font-family: Verdana;
+  font-size: 16px;
+  color: #404040;
+}
+
+h1 {
+  background-color: #ffdb8f;
+  width: 100%;
+  color: #4d4d4d;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #729ebe;
+  font-style: italic;
+}
+
+i {
+  color: #6d8698;
+}
+
+b {
+  color: #365369;
+}
+
+.list {
+  padding-left: 30px;
+}

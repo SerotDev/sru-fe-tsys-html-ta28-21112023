@@ -1,0 +1,22 @@
+body {
+    background-color: lightcyan;
+    margin: 0;
+    padding: 50px;
+    max-width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* it sets the base font size*/
+    font-size: 16px
+}
+
+/* Custom title font from google fonts*/
+h1, h2 { 
+    font-family: 'Courgette', sans-serif;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+li{
+    margin-top: 10px;
+}
