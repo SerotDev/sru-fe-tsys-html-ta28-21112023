@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 20px 30px 20px 30px;
+}
+.page-box {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px 30px 0px 30px;
+}
+
+.header-box {
+  margin-bottom: 30px;
+}
+
+.header-box > #header-banner {
+  width: 100%;
+}
+
+.header-box > h1 {
+  margin-block-start: 0em;
+  text-align: center;
+  letter-spacing: 0.20em;
+  word-spacing: 0.20em;
+  font-size: 1.7rem;
+  color: #69a41b;
+}
+
+.header-box > h1 span {
+  color: #d98e3e;
+}
+
+.group-box {
+  display: flex;
+}
+
+.left-navbar-box {
+  width: 20%;
+}
+
+#button-list {
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+  margin-right: 30px;
+  gap: 10px;
+}
+
+#button-list > li {
+  list-style: none;
+  margin-bottom: 8px;
+  line-height: 45px;
+  border: 2px solid lightgray;
+}
+
+#button-list li a {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(white,65%,#d6ab7a);
+  background-color: #e5cdb2;
+  display: block;
+}
+
+#button-list li .other-page {
+  text-decoration: none;
+  color:#444444;
+  background: linear-gradient(white,65%,#a5c84c);
+  background-color: #cbe783;
+  display: block;
+}
+
+#button-list li .other-page:hover {
+  text-decoration: none;
+  background: linear-gradient(white,65%,#e0e06c);
+  background-color: #e7e783;
+  display: block;
+}
+
+.content-box {
+  width: 80%;
+  background: linear-gradient(to top,rgba(255, 255, 255, 0),95%,#dddddd),linear-gradient(to bottom,rgba(255, 255, 255, 0),95%,#dddddd);
+  border: 2px solid lightgray;
+  padding: 0px 20px 0px 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content-box > h2 {
+  margin-block-end: 0em;
+  padding-top: 20px;
+  font-size: 1.4rem;
+  color: rgb(137, 198, 15);
+}
+.content-box > hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  border-width: 1px;
+  border-style: solid;
+  color: lightgray;
+}
+
+.content-box > h3 {
+  font-size: 1.2rem;
+  color: #d98e3e;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+}
+
+.content-box > p {
+  padding-bottom: 10px;
+}
+
+.footer-box {
+  text-align: center;
+  font-size: 0.8rem;
+  color: lightgray;
+  font-style: italic;
+}
